@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name_group,.email_group, .place_group,.comment_group{
+    position: relative;
+}
+.name_label,.email_label,.place_label,.comment_label{
+    position: absolute;
+    top: -13px;
+    left: 27px;
+    overflow: hidden;
+    z-index: 20;
+    background-color: #ffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
